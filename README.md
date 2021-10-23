@@ -41,6 +41,11 @@ This project was built using the following technologies:
 
 The application is on [`localhost:4000`](http://localhost:4000).
 
+Sending a new message (Application test - Insominia / index.html)
+
+![Insominia](https://user-images.githubusercontent.com/72607039/138568937-721c7e18-cc4c-4126-a2b8-53eef2a3c724.gif)
+
+
 ## 📄 License
 
 This project was built under MIT. See the file [LICENSE](LICENSE) for more details.
