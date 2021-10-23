@@ -1,0 +1,32 @@
+Create a new environment
+
+{
+  "baseURL": "http://localhost:4000"
+}
+
+Requests:
+---------------------------------------------
+1. requestname  
+POST {{ _.baseURL }}/authenticate
+json
+{
+	"code":" code from github oAuth "
+}
+
+---------------------------------------------
+2. Create Message
+POST {{ _.baseURL }}/messages
+json
+{
+	"message": "code your life"
+}
+
+Bearer Token: "Token from requestname"
+---------------------------------------------
+3. Last3 or Last3Nessages
+GET {{ _.baseURL }}/messages/last3
+
+---------------------------------------------
+4. Profile User
+GET {{ _.baseURL }}/profile
+Bearer Token: "Token from requestname"
